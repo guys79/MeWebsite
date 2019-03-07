@@ -1,0 +1,41 @@
+#body
+{
+	background-color: rgb(200, 200, 200);
+}
+#menu
+{
+	position: sticky;	
+	width: 100%;
+	height: 35px;
+	overflow: hidden;
+	top: 0px;
+	text-align: center;
+	background-color: #A8A8A8 ;
+	padding-bottom: 20px;
+	
+}
+#logo_div
+{
+	background-color: #909090;
+	height: 213px;
+}
+li.tab_list{
+	display: inline;
+	
+}
+li.tab_list:before{content: "| "}
+li.tab_list:after{content: " "}
+li.tab_list:last-child::after{content: " |"}
+li.tab_list:first-child::before{content: "";}
+li.tab_list:first-child::after{content: "";}
+img.Logo{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+section
+{
+	text-align: center;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body id="body">
+  <div id = "logo_div">
+      <img src="guy5.png" alt="Guy Logo" class="Logo"/>
+  </div>
+  
+  <div id="menu">
+  <ul>
+      <li class="tab_list"><a href="#about">About Me</a></li>
+      <li class="tab_list"><a href="#photos">My Photos</a></li>
+      <li class="tab_list"><a href="#playlist">My Playlist</a></li>
+      <li class="tab_list"><a href="#like">Like</a></li>
+      <li class="tab_list"><a href="#qrcoder">QR code</a></li>
+      <li class="tab_list"><a href="#spa">Q&A</a></li>
+      <li class="tab_list"><a href="#contact">Contact Me</a></li>
+    </ul>
+
+    <br/>
+  </div>
+  <section id="about" class="section">
+    <br />
+    <br />
+    <h1>About Me</h1>
+    <br />
+    My hobbies are mainly practicing in different kinds of sports such as: Swimming, runnig, climbing and so on.
+    I also like just hanging out with my friends and family.
+    <br />
+    <br />
+    While studying I was exposed to many different kinds of interesting fields, but the field that piqued my interest most is Artificial Intelligence and it's applications in our everyday lives.
+    <br />
+    <br />
+    I wish that in the end of this course I will be able to build and design websites with multiple interesting functions.
+    <br />
+    <br />
+    In this work, I struggeled most to desing the website so it would look like the "Mental Image" of the website in my head.  
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="photos" class="section">
+    <div>
+      <br/>
+      <br/>
+      <br/>
+      <h1>My Photos</h1>
+      <img src="me.jpg" alt="Me!" height="480" width="665">
+    </div>
+    <div>
+        <img src="gf.jpg" alt="Me and Eden" height="300" width="400">
+        <img src="fam.jpg" alt="Me and my sisters" height="300" width="533">
+        <img src="friends.jpg" alt="Me and my friends" height="300" width="498s">
+    </div>
+  </section>
+
+  <section id="playlist" class="section">
+    <br />
+    <br />
+    <br />
+    <h1 >My Playlist</h1>
+    <h4> usually I like listening to <i>rock</i> and <i>soft metal</i>,  here is my favorite playlist on youtube</h4>
+    <br />
+    <br />
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=RDXKYJ23kvZsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="like" class="section">
+    <br />
+    <br />
+    <br />
+    <h1>give me a like</h1>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="qrcoder" class="section">
+    <br />
+    <br />
+    <br />
+    <h1>scan my code</h1>
+    <img src="me.jpg"alt="qrCode" width=300 height=300>
+    <br />
+    <br />
+    <br />
+  </section>
+
+  <section id="spa" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <h1>Q&A</h1>
+    <h3><u><b>Question 1:</b> In my opinion, what are the three <i>main</i> differences between web1, web2, and web3?</u></h3>
+    The answer to this question will be uploded shortly
+    <br />
+    <br />
+    <h3><u><b>Question 2:</b> Explain the differences by giving an example of an UseCase</h3>
+      The answer to this question will be uploded shortly
+  </section>
+
+  <section id="contact" class="section">
+      <br />
+      <br />
+      <br />
+    <h1>contact me</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </section>
+
+
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+    type = "text/javascript" >
+      $(document).scroll(function () {
+        $('#menu').toggle($(this).scrollTop() > 1000)
+      });​
+  </script>
+</body>
+
+</html>
